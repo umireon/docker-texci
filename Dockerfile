@@ -11,3 +11,4 @@ RUN apk --no-cache add perl wget xz && \
     tlmgr install collection-luatex ms pgf pgfplots standalone times txfonts xcolor && \
     rm -fr /tmp/install-tl-* /tmp/texlive.profile && \
     apk --no-cache del perl wget xz
+RUN apk --no-cache add bash
